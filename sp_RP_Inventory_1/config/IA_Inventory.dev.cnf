@@ -1,0 +1,8 @@
+## config for Inventory Adjustment ##
+
+AdjustmentType=ADJUSTMENT
+Availability=YES
+OrganizationCode=SEPHORAUS
+ReasonCode=IA
+#SupplyType=
+UnitOfMeasure=EACH

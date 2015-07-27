@@ -1,0 +1,102 @@
+24 Jul 2015 16:39:08,091 INFO HTTP Handler 127.0.0.1 services.OMS - inventory adjustment parsed flat file and input data : <?xml version="1.0"?>
+<logDocument>
+  <IA record-id="IA" delimiters=">>>BasicData:record=\n,field=,subfield=,FormatInfo=>>>BasicData:<<<<<<" segment-id="IA" loops-id="IA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055654</TRNDTE>
+    <DUMMY></DUMMY>
+    <TRANID>IA</TRANID>
+    <TRNNUM>4541</TRNNUM>
+    <VC_TRNDTE>29May15055654</VC_TRNDTE>
+    <PRTNUM>1661321</PRTNUM>
+    <LOTNUM></LOTNUM>
+    <VC_SIGN>-</VC_SIGN>
+    <ADJQTY>00000001</ADJQTY>
+    <ADJ_REF1>Auto Cyc</ADJ_REF1>
+    <VC_TERMINAL_ID>910</VC_TERMINAL_ID>
+    <VC_USR_ID>MICGERLA</VC_USR_ID>
+    <VC_WH>DOT</VC_WH>
+    <REACOD>C</REACOD>
+  </IA>
+  <IA record-id="IA" segment-id="IA" loops-id="IA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055700</TRNDTE>
+    <DUMMY></DUMMY>
+    <TRANID>IA</TRANID>
+    <TRNNUM>4548</TRNNUM>
+    <VC_TRNDTE>29May15055700</VC_TRNDTE>
+    <PRTNUM>1684588</PRTNUM>
+    <LOTNUM></LOTNUM>
+    <VC_SIGN>-</VC_SIGN>
+    <ADJQTY>00000019</ADJQTY>
+    <ADJ_REF1>NA</ADJ_REF1>
+    <VC_TERMINAL_ID>AGER</VC_TERMINAL_ID>
+    <VC_USR_ID>ELIBOUCH</VC_USR_ID>
+    <VC_WH>DOT</VC_WH>
+    <REACOD>A</REACOD>
+  </IA>
+  <IA record-id="IA" segment-id="IA" loops-id="IA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150528174454</TRNDTE>
+    <DUMMY></DUMMY>
+    <TRANID>IA</TRANID>
+    <TRNNUM>6550</TRNNUM>
+    <VC_TRNDTE>28May15174454</VC_TRNDTE>
+    <PRTNUM>1695816</PRTNUM>
+    <LOTNUM></LOTNUM>
+    <VC_SIGN>-</VC_SIGN>
+    <ADJQTY>00000025</ADJQTY>
+    <ADJ_REF1>NA</ADJ_REF1>
+    <VC_TERMINAL_ID>AGER</VC_TERMINAL_ID>
+    <VC_USR_ID>OSAYAH</VC_USR_ID>
+    <VC_WH>RET</VC_WH>
+    <REACOD>A</REACOD>
+  </IA>
+  <IA record-id="IA" segment-id="IA" loops-id="IA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150528174454</TRNDTE>
+    <DUMMY></DUMMY>
+    <TRANID>IA</TRANID>
+    <TRNNUM>6550</TRNNUM>
+    <VC_TRNDTE>28May15174454</VC_TRNDTE>
+    <PRTNUM>1695816</PRTNUM>
+    <LOTNUM></LOTNUM>
+    <VC_SIGN>+</VC_SIGN>
+    <ADJQTY>00000025</ADJQTY>
+    <ADJ_REF1>NA</ADJ_REF1>
+    <VC_TERMINAL_ID>AGER</VC_TERMINAL_ID>
+    <VC_USR_ID>OSAYAH</VC_USR_ID>
+    <VC_WH>RET</VC_WH>
+    <REACOD>A</REACOD>
+  </IA>
+  <IA record-id="IA" segment-id="IA" loops-id="IA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055707</TRNDTE>
+    <DUMMY>3630846455-01</DUMMY>
+    <TRANID>IA</TRANID>
+    <TRNNUM>a456</TRNNUM>
+    <VC_TRNDTE>929May1505570</VC_TRNDTE>
+    <PRTNUM>73630846455-01  1503</PRTNUM>
+    <LOTNUM>234</LOTNUM>
+    <VC_SIGN>+</VC_SIGN>
+    <ADJQTY>00000020</ADJQTY>
+    <ADJ_REF1>NA</ADJ_REF1>
+    <VC_TERMINAL_ID>AGER</VC_TERMINAL_ID>
+    <VC_USR_ID>OSAYAH</VC_USR_ID>
+    <VC_WH>RET</VC_WH>
+    <REACOD>A</REACOD>
+  </IA>
+  <ShipNode>WRX0302</ShipNode>
+  <ItemID>92-01-1710631</ItemID>
+</logDocument>
+24 Jul 2015 16:39:08,111 INFO HTTP Handler 127.0.0.1 services.OMS - Inventory Adjustment message for OMS queue : <?xml version="1.0"?>
+<logDocument>
+  <xmldata><?xml version="1.0"?>
+<Items>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:39:08+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="-00000001" ReasonCode="IA" ReasonText="Auto Cyc" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:39:08+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="-00000019" ReasonCode="IA" ReasonText="NA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:39:08+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="-00000025" ReasonCode="IA" ReasonText="NA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:39:08+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="00000025" ReasonCode="IA" ReasonText="NA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:39:08+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="00000020" ReasonCode="IA" ReasonText="NA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+</Items></xmldata>
+</logDocument>
+24 Jul 2015 16:39:55,953 INFO HTTP Handler 127.0.0.1 services.OMS - JMS message published to out queue with JMSMessageID:127.0.0.1:53834(22).

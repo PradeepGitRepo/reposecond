@@ -1,0 +1,8 @@
+## config for Inventory Putaway ##
+
+AdjustmentType=ADJUSTMENT
+Availability=YES
+OrganizationCode=SEPHORAUS
+ReasonCode=PA
+#SupplyType=
+UnitOfMeasure=EACH

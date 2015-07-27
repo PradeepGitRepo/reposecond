@@ -1,0 +1,8 @@
+## config for Inventory Transfer ##
+
+AdjustmentType=ADJUSTMENT
+Availability=YES
+OrganizationCode=SEPHORAUS
+ReasonCode=TR
+#SupplyType=
+UnitOfMeasure=EACH

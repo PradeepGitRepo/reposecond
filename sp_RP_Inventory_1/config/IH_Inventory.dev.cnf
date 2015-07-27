@@ -1,0 +1,8 @@
+## config for Inventory Hold ##
+
+AdjustmentType=ADJUSTMENT
+Availability=YES
+OrganizationCode=SEPHORAUS
+ReasonCode=IH
+#SupplyType=
+UnitOfMeasure=EACH

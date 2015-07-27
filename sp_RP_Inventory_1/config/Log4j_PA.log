@@ -1,0 +1,125 @@
+24 Jul 2015 16:57:01,140 INFO HTTP Handler 127.0.0.1 services.OMS - inventory putaway parsed flat file and input data : <?xml version="1.0"?>
+<logDocument>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055700</TRNDTE>
+    <DUMMY>36309252</DUMMY>
+    <DUMMY2>27-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4551</TRNNUM>
+    <VC_TRNDTE>29May15055700</VC_TRNDTE>
+    <INVNUM>36309252</INVNUM>
+    <PRTNUM>27-01</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3572076</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055659</TRNDTE>
+    <DUMMY>DR365257</DUMMY>
+    <DUMMY2></DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4554</TRNNUM>
+    <VC_TRNDTE>29May15055659</VC_TRNDTE>
+    <INVNUM>DR365257</INVNUM>
+    <PRTNUM>1436757</PRTNUM>
+    <RCVQTY>00000003</RCVQTY>
+    <SUBNUM>DR365257</SUBNUM>
+    <TERMINAL_ID>D863</TERMINAL_ID>
+    <USR_ID>GRELEGGE</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055659</TRNDTE>
+    <DUMMY>DR365257</DUMMY>
+    <DUMMY2></DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4555</TRNNUM>
+    <VC_TRNDTE>29May15055659</VC_TRNDTE>
+    <INVNUM>DR365257</INVNUM>
+    <PRTNUM>1436757</PRTNUM>
+    <RCVQTY>00000003</RCVQTY>
+    <SUBNUM>DR365257</SUBNUM>
+    <TERMINAL_ID>D863</TERMINAL_ID>
+    <USR_ID>GRELEGGE</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055705</TRNDTE>
+    <DUMMY>35592766</DUMMY>
+    <DUMMY2>92-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4565</TRNNUM>
+    <VC_TRNDTE>29May15055705</VC_TRNDTE>
+    <INVNUM>35592766</INVNUM>
+    <PRTNUM>92-01  1710631</PRTNUM>
+    <RCVQTY>00000010</RCVQTY>
+    <SUBNUM>J3571416</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055705</TRNDTE>
+    <DUMMY>35592766</DUMMY>
+    <DUMMY2>92-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4566</TRNNUM>
+    <VC_TRNDTE>29May15055705</VC_TRNDTE>
+    <INVNUM>35592766</INVNUM>
+    <PRTNUM>92-01  51532</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571416</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055707</TRNDTE>
+    <DUMMY>36308464</DUMMY>
+    <DUMMY2>55-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4570</TRNNUM>
+    <VC_TRNDTE>29May15055707</VC_TRNDTE>
+    <INVNUM>36308464</INVNUM>
+    <PRTNUM>55-01  1554393</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571654</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055707</TRNDTE>
+    <DUMMY>36308464</DUMMY>
+    <DUMMY2>55-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4571</TRNNUM>
+    <VC_TRNDTE>29May15055707</VC_TRNDTE>
+    <INVNUM>36308464</INVNUM>
+    <PRTNUM>55-01  1649946</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571654</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <ShipNode>WRX0302</ShipNode>
+  <ItemID>92-01-1710631</ItemID>
+</logDocument>
+24 Jul 2015 16:57:01,156 INFO HTTP Handler 127.0.0.1 services.OMS - Inventory Putaway message for OMS queue : <?xml version="1.0"?>
+<logDocument>
+  <xmldata><?xml version="1.0"?>
+<Items>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="1" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="3" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="3" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="10" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="1" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="1" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+  <Item AdjustmentType="ADJUSTMENT" Availability="YES" DateTime="2015-07-24T16:57:01+0530" ItemID="92-01-1710631" OrganizationCode="SEPHORAUS" Quantity="1" ReasonCode="PA" ShipNode="WRX0302" SupplyType="" UnitOfMeasure="EACH"/>
+</Items></xmldata>
+</logDocument>
+24 Jul 2015 16:58:06,377 INFO HTTP Handler 127.0.0.1 services.OMS - JMS message published to out queue with JMSMessageID:127.0.0.1:53834(25).
+

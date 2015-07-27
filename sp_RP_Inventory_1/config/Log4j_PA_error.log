@@ -1,0 +1,261 @@
+24 Jul 2015 17:24:00,886 INFO HTTP Handler 127.0.0.1 services.OMS - inventory putaway parsed flat file and input data : <?xml version="1.0"?>
+<logDocument>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055700</TRNDTE>
+    <DUMMY>36309252</DUMMY>
+    <DUMMY2>27-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4551</TRNNUM>
+    <VC_TRNDTE>29May15055700</VC_TRNDTE>
+    <INVNUM>36309252</INVNUM>
+    <PRTNUM>27-01</PRTNUM>
+    <RCVQTY>abc</RCVQTY>
+    <SUBNUM>J3572076</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055659</TRNDTE>
+    <DUMMY>DR365257</DUMMY>
+    <DUMMY2></DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4554</TRNNUM>
+    <VC_TRNDTE>29May15055659</VC_TRNDTE>
+    <INVNUM>DR365257</INVNUM>
+    <PRTNUM>1436757</PRTNUM>
+    <RCVQTY>00000003</RCVQTY>
+    <SUBNUM>DR365257</SUBNUM>
+    <TERMINAL_ID>D863</TERMINAL_ID>
+    <USR_ID>GRELEGGE</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055659</TRNDTE>
+    <DUMMY>DR365257</DUMMY>
+    <DUMMY2></DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4555</TRNNUM>
+    <VC_TRNDTE>29May15055659</VC_TRNDTE>
+    <INVNUM>DR365257</INVNUM>
+    <PRTNUM>1436757</PRTNUM>
+    <RCVQTY>00000003</RCVQTY>
+    <SUBNUM>DR365257</SUBNUM>
+    <TERMINAL_ID>D863</TERMINAL_ID>
+    <USR_ID>GRELEGGE</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055705</TRNDTE>
+    <DUMMY>35592766</DUMMY>
+    <DUMMY2>92-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4565</TRNNUM>
+    <VC_TRNDTE>29May15055705</VC_TRNDTE>
+    <INVNUM>35592766</INVNUM>
+    <PRTNUM>92-01  1710631</PRTNUM>
+    <RCVQTY>00000010</RCVQTY>
+    <SUBNUM>J3571416</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055705</TRNDTE>
+    <DUMMY>35592766</DUMMY>
+    <DUMMY2>92-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4566</TRNNUM>
+    <VC_TRNDTE>29May15055705</VC_TRNDTE>
+    <INVNUM>35592766</INVNUM>
+    <PRTNUM>92-01  51532</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571416</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055707</TRNDTE>
+    <DUMMY>36308464</DUMMY>
+    <DUMMY2>55-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4570</TRNNUM>
+    <VC_TRNDTE>29May15055707</VC_TRNDTE>
+    <INVNUM>36308464</INVNUM>
+    <PRTNUM>55-01  1554393</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571654</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <PA record-id="PA" segment-id="PA" loops-id="PA">
+    <WH_ID>RX0302</WH_ID>
+    <TRNDTE>20150529055707</TRNDTE>
+    <DUMMY>36308464</DUMMY>
+    <DUMMY2>55-01</DUMMY2>
+    <TRANID>PA</TRANID>
+    <TRNNUM>4571</TRNNUM>
+    <VC_TRNDTE>29May15055707</VC_TRNDTE>
+    <INVNUM>36308464</INVNUM>
+    <PRTNUM>55-01  1649946</PRTNUM>
+    <RCVQTY>00000001</RCVQTY>
+    <SUBNUM>J3571654</SUBNUM>
+    <TERMINAL_ID>SHP2</TERMINAL_ID>
+    <USR_ID>1</USR_ID>
+  </PA>
+  <ShipNode>WRX0302</ShipNode>
+  <ItemID>92-01-1710631</ItemID>
+</logDocument>
+24 Jul 2015 17:24:08,915 ERROR HTTP Handler 127.0.0.1 services.OMS - Service Exception  : <?xml version="1.0"?>
+<logDocument>
+  <error>java.lang.NumberFormatException: For input string: "abc"</error>
+  <errorType>com.wm.app.b2b.server.ServiceException</errorType>
+  <errorDump>com.wm.app.b2b.server.ServiceException: java.lang.NumberFormatException: For input string: "abc"
+	at pub.string.numericFormat(string.java:414)
+	at sun.reflect.GeneratedMethodAccessor198.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.wm.app.b2b.server.JavaService.baseInvoke(JavaService.java:443)
+	at com.wm.app.b2b.server.invoke.InvokeManager.process(InvokeManager.java:640)
+	at com.wm.app.b2b.server.util.tspace.ReservationProcessor.process(ReservationProcessor.java:39)
+	at com.wm.app.b2b.server.invoke.StatisticsProcessor.process(StatisticsProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.ServiceCompletionImpl.process(ServiceCompletionImpl.java:243)
+	at com.wm.app.b2b.server.invoke.ValidateProcessor.process(ValidateProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.PipelineProcessor.process(PipelineProcessor.java:171)
+	at com.wm.app.b2b.server.ACLManager.process(ACLManager.java:289)
+	at com.wm.app.b2b.server.invoke.DispatchProcessor.process(DispatchProcessor.java:34)
+	at com.wm.app.b2b.server.AuditLogManager.process(AuditLogManager.java:368)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:544)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:383)
+	at com.wm.app.b2b.server.ServiceManager.invoke(ServiceManager.java:244)
+	at com.wm.app.b2b.server.BaseService.invoke(BaseService.java:205)
+	at com.wm.lang.flow.FlowInvoke.invoke(FlowInvoke.java:259)
+	at com.wm.lang.flow.FlowMapInvoke.invokeService(FlowMapInvoke.java:186)
+	at com.wm.lang.flow.FlowMap.invoke(FlowMap.java:288)
+	at com.wm.lang.flow.FlowMap.invoke(FlowMap.java:131)
+	at com.wm.lang.flow.FlowState.invokeNode(FlowState.java:511)
+	at com.wm.lang.flow.FlowState.stepIncremental(FlowState.java:428)
+	at com.wm.lang.flow.FlowState.invoke(FlowState.java:331)
+	at wm.server.flowdebugger.singleStepMap(flowdebugger.java:1146)
+	at wm.server.flowdebugger.execute(flowdebugger.java:428)
+	at sun.reflect.GeneratedMethodAccessor148.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.wm.app.b2b.server.JavaService.baseInvoke(JavaService.java:453)
+	at com.wm.app.b2b.server.invoke.InvokeManager.process(InvokeManager.java:640)
+	at com.wm.app.b2b.server.util.tspace.ReservationProcessor.process(ReservationProcessor.java:39)
+	at com.wm.app.b2b.server.invoke.StatisticsProcessor.process(StatisticsProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.ServiceCompletionImpl.process(ServiceCompletionImpl.java:243)
+	at com.wm.app.b2b.server.invoke.ValidateProcessor.process(ValidateProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.PipelineProcessor.process(PipelineProcessor.java:171)
+	at com.wm.app.b2b.server.ACLManager.process(ACLManager.java:289)
+	at com.wm.app.b2b.server.invoke.DispatchProcessor.process(DispatchProcessor.java:34)
+	at com.wm.app.b2b.server.AuditLogManager.process(AuditLogManager.java:368)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:544)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:383)
+	at com.wm.app.b2b.server.ServiceManager.invoke(ServiceManager.java:244)
+	at com.wm.app.b2b.server.comm.DefaultServerRequestHandler.handleMessage(DefaultServerRequestHandler.java:119)
+	at com.wm.app.b2b.server.HTTPMessageHandler.process(HTTPMessageHandler.java:164)
+	at com.wm.app.b2b.server.HTTPDispatch.handleRequest(HTTPDispatch.java:174)
+	at com.wm.app.b2b.server.Dispatch.run(Dispatch.java:383)
+	at com.wm.util.pool.PooledThread.run(PooledThread.java:127)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NumberFormatException: For input string: "abc"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1241)
+	at java.lang.Double.valueOf(Double.java:504)
+	at com.wm.util.xform.StringDT.numericFormat(StringDT.java:598)
+	at pub.string.numericFormat(string.java:409)
+	... 48 more
+</errorDump>
+  <service>pub.string:numericFormat</service>
+  <user>Administrator</user>
+  <time>2015/07/24 17:24:03.385</time>
+  <callStack>
+    <service>pub.string:numericFormat</service>
+    <flowStep></flowStep>
+  </callStack>
+  <pipeline>
+    <num>abc</num>
+    <pattern>#</pattern>
+  </pipeline>
+  <localizedError>java.lang.NumberFormatException: For input string: "abc"</localizedError>
+  <threadID>HTTP Handler 127.0.0.1</threadID>
+  <ssnid>57ce3020ea4a179a9317f8e3975eabfb</ssnid>
+  <nestedErrorInfo>
+    <error>For input string: "abc"</error>
+    <errorType>java.lang.NumberFormatException</errorType>
+    <errorDump>com.wm.app.b2b.server.ServiceException: java.lang.NumberFormatException: For input string: "abc"
+	at pub.string.numericFormat(string.java:414)
+	at sun.reflect.GeneratedMethodAccessor198.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.wm.app.b2b.server.JavaService.baseInvoke(JavaService.java:443)
+	at com.wm.app.b2b.server.invoke.InvokeManager.process(InvokeManager.java:640)
+	at com.wm.app.b2b.server.util.tspace.ReservationProcessor.process(ReservationProcessor.java:39)
+	at com.wm.app.b2b.server.invoke.StatisticsProcessor.process(StatisticsProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.ServiceCompletionImpl.process(ServiceCompletionImpl.java:243)
+	at com.wm.app.b2b.server.invoke.ValidateProcessor.process(ValidateProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.PipelineProcessor.process(PipelineProcessor.java:171)
+	at com.wm.app.b2b.server.ACLManager.process(ACLManager.java:289)
+	at com.wm.app.b2b.server.invoke.DispatchProcessor.process(DispatchProcessor.java:34)
+	at com.wm.app.b2b.server.AuditLogManager.process(AuditLogManager.java:368)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:544)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:383)
+	at com.wm.app.b2b.server.ServiceManager.invoke(ServiceManager.java:244)
+	at com.wm.app.b2b.server.BaseService.invoke(BaseService.java:205)
+	at com.wm.lang.flow.FlowInvoke.invoke(FlowInvoke.java:259)
+	at com.wm.lang.flow.FlowMapInvoke.invokeService(FlowMapInvoke.java:186)
+	at com.wm.lang.flow.FlowMap.invoke(FlowMap.java:288)
+	at com.wm.lang.flow.FlowMap.invoke(FlowMap.java:131)
+	at com.wm.lang.flow.FlowState.invokeNode(FlowState.java:511)
+	at com.wm.lang.flow.FlowState.stepIncremental(FlowState.java:428)
+	at com.wm.lang.flow.FlowState.invoke(FlowState.java:331)
+	at wm.server.flowdebugger.singleStepMap(flowdebugger.java:1146)
+	at wm.server.flowdebugger.execute(flowdebugger.java:428)
+	at sun.reflect.GeneratedMethodAccessor148.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.wm.app.b2b.server.JavaService.baseInvoke(JavaService.java:453)
+	at com.wm.app.b2b.server.invoke.InvokeManager.process(InvokeManager.java:640)
+	at com.wm.app.b2b.server.util.tspace.ReservationProcessor.process(ReservationProcessor.java:39)
+	at com.wm.app.b2b.server.invoke.StatisticsProcessor.process(StatisticsProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.ServiceCompletionImpl.process(ServiceCompletionImpl.java:243)
+	at com.wm.app.b2b.server.invoke.ValidateProcessor.process(ValidateProcessor.java:49)
+	at com.wm.app.b2b.server.invoke.PipelineProcessor.process(PipelineProcessor.java:171)
+	at com.wm.app.b2b.server.ACLManager.process(ACLManager.java:289)
+	at com.wm.app.b2b.server.invoke.DispatchProcessor.process(DispatchProcessor.java:34)
+	at com.wm.app.b2b.server.AuditLogManager.process(AuditLogManager.java:368)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:544)
+	at com.wm.app.b2b.server.invoke.InvokeManager.invoke(InvokeManager.java:383)
+	at com.wm.app.b2b.server.ServiceManager.invoke(ServiceManager.java:244)
+	at com.wm.app.b2b.server.comm.DefaultServerRequestHandler.handleMessage(DefaultServerRequestHandler.java:119)
+	at com.wm.app.b2b.server.HTTPMessageHandler.process(HTTPMessageHandler.java:164)
+	at com.wm.app.b2b.server.HTTPDispatch.handleRequest(HTTPDispatch.java:174)
+	at com.wm.app.b2b.server.Dispatch.run(Dispatch.java:383)
+	at com.wm.util.pool.PooledThread.run(PooledThread.java:127)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NumberFormatException: For input string: "abc"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1241)
+	at java.lang.Double.valueOf(Double.java:504)
+	at com.wm.util.xform.StringDT.numericFormat(StringDT.java:598)
+	at pub.string.numericFormat(string.java:409)
+	... 48 more
+</errorDump>
+    <service>pub.string:numericFormat</service>
+    <user>Administrator</user>
+    <time>2015/07/24 17:24:03.385</time>
+    <callStack/>
+    <pipeline/>
+    <localizedError>For input string: "abc"</localizedError>
+    <threadID>HTTP Handler 127.0.0.1</threadID>
+    <ssnid>57ce3020ea4a179a9317f8e3975eabfb</ssnid>
+    <nestedErrorInfo/>
+    <errorDetails/>
+    <errorMsgID/>
+  </nestedErrorInfo>
+  <errorDetails/>
+  <errorMsgID/>
+</logDocument>
+
